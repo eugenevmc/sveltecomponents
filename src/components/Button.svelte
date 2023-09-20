@@ -1,10 +1,12 @@
 <script>
     export let handleClick = () => alert('Please pass a function through the props');
+    let styles=$$props.style;
 </script>
 
-<button on:click={handleClick}>
+<button on:click={handleClick} style={styles}>
     <slot />
 </button>
+
 
 <style>
     button {

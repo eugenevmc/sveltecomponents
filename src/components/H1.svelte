@@ -1,4 +1,8 @@
-<h1>
+<script>
+    let styles=$$props.style
+</script>
+
+<h1 style={styles}>
     <slot />
 </h1>
 

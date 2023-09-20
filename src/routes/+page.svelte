@@ -4,13 +4,19 @@
     import Button from "../components/Button.svelte"
 </script>
 
-<body style="display: flex; 
+<body style="
+display: flex; 
 flex-direction: column;
 justify-content:center;
 align-items: center;
+gap: 5px;
+height: 80vh;
 ">
-    <Header --color='#172554'>VISta</Header>
+    <Header --color='pink'>VISta</Header>
     <H1>Welcome to the new Vista Information System!</H1>
+    <p style="display: flex;">
+        this is my p tag
+    </p>
     <Button --color='#172554'>Button</Button>
     <Button --color='#172554' handleClick={() => alert('Testing 123')}>Button2</Button>
 </body>
