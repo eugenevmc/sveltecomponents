@@ -12,7 +12,7 @@
         font-weight: 700;
         font-size: 120px;
         text-align: center;
-        color: var(--color);
+        color: var(--primarycolor);
     }
 
     @media screen and (max-width : 1200px) {

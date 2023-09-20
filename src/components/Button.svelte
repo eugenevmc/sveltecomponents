@@ -17,15 +17,15 @@
         padding-block: 5px;
         border-radius: 10px;
         border: 2px solid;
-        border-color: var(--color);
+        border-color: var(--primarycolor);
         background-color: 'transparent';
-        color: var(--color);
+        color: var(--primarycolor);
         cursor: pointer;
         transition: all ease-in-out 0.3s;
     }
     button:hover {
         color: #ffffff;
-        background-color: var(--color);
+        background-color: var(--primarycolor);
     }
     button:active {
         transform: translateY(1px);
