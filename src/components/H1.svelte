@@ -1,0 +1,12 @@
+<h1>
+    <slot />
+</h1>
+
+<style>
+    h1 {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: clamp(2rem, 4vw, 5rem);
+        text-align: center;
+        color: var(--color);
+    }
+</style>
