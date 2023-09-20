@@ -26,4 +26,5 @@
         font-size: 75px;
         }
     }
+    
 </style>
