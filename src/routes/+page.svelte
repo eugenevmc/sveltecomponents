@@ -12,7 +12,7 @@ align-items: center;
 gap: 5px;
 height: 80vh;
 ">
-    <Header style='color: pink;'>VISta</Header>
+    <Header type=metallic>VISta</Header>
     <H1>Welcome to the new Vista Information System!</H1>
     <p style="display: flex;">
         this is my p tag

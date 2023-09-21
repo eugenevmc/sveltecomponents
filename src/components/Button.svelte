@@ -1,6 +1,6 @@
 <script>
-    export let handleClick = () => alert('Please pass a function through the props');
     let styles=$$props.style;
+    export let handleClick = () => alert('Please pass a function through the props');
 </script>
 
 <button on:click={handleClick} style={styles}>

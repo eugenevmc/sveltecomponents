@@ -1,10 +1,17 @@
 <script>
-    let styles=$$props.style
+    let styles=$$props.style;
+    export let type = 'regular'; //regular or metallic 
 </script>
 
-<header style={styles}>
-    <slot />
-</header>
+{#if type == 'metallic'}
+    <header style={styles} class='metallic'>
+        <slot />
+    </header>
+{:else}
+    <header style={styles}>
+        <slot />
+    </header>
+{/if}
 
 <style>
     header {
@@ -26,5 +33,11 @@
         font-size: 75px;
         }
     }
-    
+    header.metallic {
+        background: linear-gradient(185deg, #848789, 40%,
+        #d1d5db, #e5e7eb, 65%, #848789);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
 </style>
