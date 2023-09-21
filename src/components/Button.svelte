@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
     let styles=$$props.style;
     export let handleClick = () => alert('Please pass a function through the props');
 </script>

@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
     import Header from "../components/Header.svelte"
     import H1 from "../components/H1.svelte"
     import Button from "../components/Button.svelte"

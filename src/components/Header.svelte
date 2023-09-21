@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
     let styles=$$props.style;
     export let type = 'regular'; //regular or metallic 
 </script>
