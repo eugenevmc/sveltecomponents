@@ -34,7 +34,7 @@
         }
     }
     header.metallic {
-        background: linear-gradient(185deg, #848789, 40%,
+        background: linear-gradient(185deg, #848789, 35%,
         #d1d5db, #e5e7eb, 65%, #848789);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
